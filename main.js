@@ -8,16 +8,16 @@ for (let i = 1; i <= 100; i++) {
 
     if (i % 3 == 0 && i % 5 == 0) {
         // se è divisibile sia per 3 che per 5 stampa FizzBuzz
-        console.log ( `${i} FizzBuzz` );
+        console.log (`FizzBuzz`);
     } else if (i % 3 == 0) {
         // altrimenti se è divisibile per 3 stampa Fizz
-        console.log ( `${i} Fizz` );
+        console.log (`Fizz`);
     } else if (i % 5 == 0) {
         // altrimenti se è divisibile per 5 stampa Buzz
-        console.log ( `${i} Buzz` );
+        console.log (`Buzz`);
     } else {
         // altrimenti stampa il numero
-        console.log ( `${i}` )
+        console.log (i)
     }
 
 }
